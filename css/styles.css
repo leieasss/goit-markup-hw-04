@@ -650,7 +650,7 @@ body   {
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
-        
+
      }
 
 
@@ -763,13 +763,16 @@ body   {
     color: #434455;
     letter-spacing: 0.02em;
 }
+.container__footer{
+    margin-right: 120px;
+}
 
+
+.icon-social {
+    fill: #f4f4fd;
+    
+}
 
 /* =============PORTFOLIO============= */
 
 
-
-.icon-social {
-    /* fill: var(--primary-third-text); */
-    
-}
