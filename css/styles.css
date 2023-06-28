@@ -146,6 +146,7 @@ body   {
 }
 .link-menu{
     padding: 24px 0;
+    position: relative;
 }
 
 .menu-address__item:not(:last-child){
