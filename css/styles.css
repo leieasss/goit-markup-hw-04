@@ -620,6 +620,8 @@ body   {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .social-link_footer:hover,
@@ -628,8 +630,8 @@ body   {
 
 }
 .social-icon__footer{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: var(--primary-third-text)
+     /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  */
+    fill: var(--primary-third-text);
 }
 .social-icon__footer,
 .social-icon__footer{
