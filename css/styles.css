@@ -643,7 +643,7 @@ body   {
 }
 
 /* modal */
-.data-modal{
+div[data-modal]{
     position: fixed;
     top: 0;
     left: 0;
