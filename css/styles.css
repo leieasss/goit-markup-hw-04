@@ -545,9 +545,12 @@ body   {
   width: 24px;
   height: 24px;
 }  
-.social-icon__footer:hover
+
+.social-icon__footer,
+.social-icon__footer:hover,
 .social-icon__footer:focus{
-    fill: #f4f4fd;
+    fill: var(--primary-third-text);
+    stroke: none;
 }
 
     /* FOOTER */
