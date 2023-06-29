@@ -694,17 +694,13 @@ div[data-modal]{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-icon:hover {
+.modal-button-icon:hover
+.modal-button-icon:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
 }
 
-.modal-button-icon:focus {
-    fill: #ffffff;
-    background-color: #404bbf;
-    border: none;
-}
 
 /* =============PORTFOLIO============= */
 .works {
