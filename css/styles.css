@@ -659,7 +659,14 @@ div[data-modal]{
 
      }
 
-
+.modal-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 408px;
+    min-height: 584px;
+}
 
 
 /* =============PORTFOLIO============= */
