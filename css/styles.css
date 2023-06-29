@@ -841,7 +841,7 @@ div[data-modal]{
 }
 
 
-.icon-social {
+.social-icon. .social-icon:hover, .social-icon:focus {
     fill: var(--primary-third-text);
     stroke: none;
 }
