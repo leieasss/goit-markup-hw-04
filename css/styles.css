@@ -528,7 +528,7 @@ body   {
 
 .social-icon,.social-icon:hover,.social-icon:focus{
   
-    fill: var(--primary-third-text);
+    fill: currentColor;
     stroke: none;
 
    
