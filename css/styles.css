@@ -526,7 +526,9 @@ body   {
 }
 
 
-.social-icon,.social-icon:hover,.social-icon:focus{
+.social-icon,
+.social-icon:hover,
+.social-icon:focus{
   
     fill: currentColor;
     stroke: none;
@@ -541,14 +543,14 @@ body   {
     color: #404bbf;
 }
 
- .social-icon__footer{
+ .social-icon-footer{
   width: 24px;
   height: 24px;
 }  
 
-.social-icon__footer,
-.social-icon__footer:hover,
-.social-icon__footer:focus{
+.social-icon-footer,
+.social-icon-footer:hover,
+.social-icon-footer:focus{
     fill: var(--primary-third-text);
     stroke: none;
 }
