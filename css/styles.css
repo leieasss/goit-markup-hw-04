@@ -846,4 +846,9 @@ div[data-modal]{
     stroke: none;
 }
 
+.section-social-icon, .section-social-icon:hover, .section-social-icon:focus {
+    fill: currentColor;
+    stroke: none;
+}
+
 /* =============PORTFOLIO============= */
