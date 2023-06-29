@@ -842,8 +842,8 @@ div[data-modal]{
 
 
 .icon-social {
-    fill: #f4f4fd;
-    
+    fill: var(--primary-third-text);
+    stroke: none;
 }
 
 /* =============PORTFOLIO============= */
