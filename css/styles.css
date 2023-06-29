@@ -646,9 +646,13 @@ body   {
 
 /* } */ */
 .social-icon__footer{
-    color: #f4f4fd;
+    /* color: #f4f4fd; */
     width: 24px;
     height: 24px;
+}
+.social-icon__footer:hover
+.social-icon__footer:focus{
+    color: #f4f4fd;
 }
 
 /* modal */
