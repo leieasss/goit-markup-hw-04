@@ -538,12 +538,12 @@ body   {
     color: #404bbf;
 }
 
- .social-item{
+ .social-icon__footer{
   width: 24px;
   height: 24px;
 }  
-.social-item:hover
-.social-item:focus{
+.social-icon__footer:hover
+.social-icon__footer:focus{
     fill: #f4f4fd;
 }
 
