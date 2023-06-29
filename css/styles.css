@@ -673,9 +673,20 @@ div[data-modal]{
 }
 
 .modal-button {
-    
+
 }
 
+.modal-button-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button-icon:hover {
+    fill: #ffffff;
+}
+
+.modal-button-icon:focus {
+    fill: #ffffff;
+}
 
 /* =============PORTFOLIO============= */
 .works {
