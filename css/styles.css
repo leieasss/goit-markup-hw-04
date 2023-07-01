@@ -295,7 +295,8 @@ body   {
 .button-btn:focus {
     background:#404BBF;
 }
-   
+
+
    
 /* Section 2 */
 
@@ -752,6 +753,11 @@ div[data-modal]{
 
 
 /* =============PORTFOLIO============= */
+
+
+
+
+
 .works {
     padding: 96px 0 120px;
     /* margin-bottom: 120px; */
