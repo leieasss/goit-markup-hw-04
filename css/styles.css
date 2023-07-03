@@ -684,7 +684,7 @@ body   {
     line-height: 1.5;
     color: #F4F4FD;
     max-width: 264px;
-    /* margin-right: 120px; */
+    margin-right: 120px;
 }
 
 .logo__container {
@@ -932,10 +932,12 @@ div[data-modal]{
 .container-footer{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 
-
+.container-footer-wrap{
+    margin-right: 120px;
+}
 .social-icon, .social-icon:hover, .social-icon:focus {
     fill: var(--primary-third-text);
     stroke: none;
