@@ -168,14 +168,21 @@ body   {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-::after{
+.link-menu::after {
  content: "";
  position: absolute;
+ width: 0%;
  left: 0;
  bottom: -1px;
  height: 4px;
  background-color: #404bbf;
  border-radius: 2px;
+
+ transition: transform 250ms ease-in-out;
+}
+.link-menu:hover::after {
+    width: 100%;
+    transition: transform 250ms ease-in-out;
 }
 
 .menu-address__item:not(:last-child){
@@ -185,6 +192,7 @@ body   {
 .link-menu:hover,
 .link-menu:focus   {
     color: #404BBF;
+
 }
 
 .header-adress__menu {
@@ -355,9 +363,7 @@ body   {
 
 
         /* Sektion 3  What are we doing*/
-.secrion__three {
-    padding: 120px 0;
-}
+
         
 .section-title {
     font-weight: 700;
@@ -390,9 +396,7 @@ body   {
 
 /* < !-- Section4 Our Team--> */
 
-.container {
-    padding: 32px 0;
-}
+
 
 
 .conteiner_four__list {
@@ -635,7 +639,6 @@ body   {
 } 
 
 .container__footer{
-    display: flex;
     align-items: baseline;
 
 }
@@ -925,7 +928,7 @@ div[data-modal]{
 }
 .container-footer{
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
     margin-right: 120px;
 }
 
