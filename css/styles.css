@@ -639,6 +639,7 @@ body   {
 } 
 
 .container__footer{
+    display: flex;
     align-items: baseline;
 
 }
@@ -678,6 +679,7 @@ body   {
     color: var(--primary-four-text)
 }
 .text-footer {
+    
     font-weight: 400;
     line-height: 1.5;
     color: #F4F4FD;
@@ -694,6 +696,7 @@ body   {
 
 }    
 .footer-sub{
+    
     color: var(--primary-four-text);
     margin-bottom: 16px; 
     line-height: 1.5;
