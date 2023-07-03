@@ -931,7 +931,7 @@ div[data-modal]{
 }
 .container-footer{
     display: flex;
-    /* align-items: baseline; */
+    align-items: baseline;
     margin-right: 120px;
 }
 
