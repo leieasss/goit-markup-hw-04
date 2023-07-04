@@ -619,7 +619,7 @@ body   {
     opacity: .9;
 }
 
-.item-works:hover {
+.item-works:hover .overlay-text {
     transform: translateY(0%);
 }  
 
