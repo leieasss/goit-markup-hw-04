@@ -348,7 +348,8 @@ body   {
         
 }
 .sect-second__item:not(:last-child) {
-    margin-right: 0;}
+    margin-right: 0;
+}
 
 .second-section-title   {
     letter-spacing: 0.02em;
@@ -484,13 +485,10 @@ body   {
 
 .icon-social{
         /* fill:var(--primary-third-text); */
-        fill:var(--primary-icon)
+        fill:var(--primary-icon);
 }
 
-/*  .social-icon:hover,
- .social-icon:focus {
-     color: #f4f4fd;
- }*/
+
     
 
 .social-link__four:hover,
